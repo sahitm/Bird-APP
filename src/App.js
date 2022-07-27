@@ -1,14 +1,15 @@
-import Sidebar from './components/Sidebar';
-import Feed from './components/Feed';
-import Trending from './components/Trending';
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Login from "./components/Login";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
-      <Feed />
-      <Trending />
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="home" element={<Home />} />
+      </Routes>
     </div>
   );
 }
