@@ -1,7 +1,7 @@
 import React from 'react'
-import Sidebar from './Sidebar';
-import Feed from './Feed';
-import Trending from './Trending';
+import Sidebar from './dashboard/Sidebar'
+import Feed from './dashboard/Feed'
+import Trending from './dashboard/Trending'
 import './Home.css'
 
 function Home() {

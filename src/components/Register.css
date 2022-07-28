@@ -1,0 +1,32 @@
+.register{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.register > h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+
+.register > *{
+    margin-left: 1rem;
+}
+
+
+.register--form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.register--form > *{
+   
+    width: 20rem;
+    height: 3rem;
+    margin: 1rem 0;
+}
+
+

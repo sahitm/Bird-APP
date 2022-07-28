@@ -1,0 +1,15 @@
+.loginpage{
+    display: flex;
+}
+
+.twtbrand{
+    flex: 0.5;
+    height: 100vh;
+    background-image: url('./img/bgImg.png');
+}
+
+.twtbird{
+    width: 25vw;
+    margin: auto;
+    transform: translateY(50%);
+}
