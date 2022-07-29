@@ -7,7 +7,7 @@ import {Context} from '../context/Context'
 
 function Feed() {
 
-  const {loginvalues,setLoginValues,twtData,SetTwtData,twtText, SetTwtText} = useContext(Context)
+  const {loginvalues,twtData,SetTwtData} = useContext(Context)
 
   const postElements = twtData.map((item) => {
      return <Post loginvalues={loginvalues} twtText={item} twtData={twtData} SetTwtData={SetTwtData}/>
