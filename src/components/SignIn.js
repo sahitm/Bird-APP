@@ -3,14 +3,12 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import { Button } from '@mui/material';
 import './SignIn.css'
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import {Context} from './context/Context'
 
 function SignIn() {
 
-  const [loginvalues, setLoginValues] = useState({
-    Logusername: '',
-    Logpassword: ''
-  });
-
+  const {loginvalues,setLoginValues} = useContext(Context)
 
   const handleLoginChange = (prop) => (event) => {
     setLoginValues({ ...loginvalues, [prop]: event.target.value });

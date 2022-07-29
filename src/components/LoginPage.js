@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import SignIn from './SignIn'
+import React from 'react'
 import Register from './Register'
 
 import './Loginpage.css'
 
-function Login() {
+function LoginPage() {
 
       
 
@@ -27,4 +25,4 @@ function Login() {
     )
 }
 
-export default Login
+export default LoginPage
